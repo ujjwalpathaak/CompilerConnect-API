@@ -2,9 +2,9 @@
 
 <img alt="Javascript" src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E"/> <img alt="Nodejs" src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white"/>
 
-API for accessing Student Data through JUIT WebKiosk. Created using NodeJS, ExpressJS and Cheerio
+API to run C++ code on the cloud :)
 
-BASE URL: https://juit-webkiosk-api-6v2h.onrender.com/
+BASE URL: //
 
 ### Required request body
 

@@ -11,20 +11,52 @@ BASE URL: https://juit-webkiosk-api-6v2h.onrender.com/
 ```
 {
     "inputCheck": "true", //true || false
-    "language": "cpp", //cpp || py
-    "code": "",
-    "input": "",
+    "language": "cpp", //cpp
+    "input": "8 9 5 2 13",
+    "code": "#include <iostream>
+             using namespace std;
+
+             void bubbleSort(int arr[], int n)
+             {
+                 int i, j;
+                 for (i = 0; i < n - 1; i++)
+                     for (j = 0; j < n - i - 1; j++)
+                         if (arr[j] > arr[j + 1])
+                             swap(arr[j], arr[j + 1]);
+             }
+
+             void printArray(int arr[], int size)
+             {
+                 int i;
+                 for (i = 0; i < size; i++)
+                     cout << arr[i] << " ";
+                 cout << endl;
+             }
+
+             int main()
+             {
+                 int arr[5];
+                 for (int i = 0; i < 5; i++)
+                 {
+                     cin >> arr[i];
+                 }
+
+                 bubbleSort(arr, 5);
+                 printArray(arr, 5);
+                 return 0;
+             }",
+    
 }
 ```
 
 ### Endpoints
 
-- `/execCode`  
+- `/execCode`
 
 **Response:**
 
 ```
 {
-    "response": "User 211105 Logged In"
+    output: '2 5 8 9 13'
 }
 ```

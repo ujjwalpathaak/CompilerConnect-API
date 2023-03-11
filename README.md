@@ -6,6 +6,10 @@ API to run C++ code on the cloud :)
 
 BASE URL: //
 
+```
+Use <textarea /> tag to take input
+```
+
 ### Required request body
 
 ```

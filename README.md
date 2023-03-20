@@ -15,7 +15,6 @@ Use <textarea /> tag to take input
 ```
 {
     "inputCheck": "true", //true || false
-    "language": "cpp", //cpp
     "input": "8 9 5 2 13",
     "code": "#include <iostream>
              using namespace std;
@@ -55,7 +54,8 @@ Use <textarea /> tag to take input
 
 ### Endpoints
 
-- `/execCode`
+- `/execCodeCpp` //to run code in C++
+- `/execCodePy`//to run code in Python
 
 **Response:**
 

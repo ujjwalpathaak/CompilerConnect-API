@@ -54,8 +54,8 @@ Use <textarea /> tag to take input
 
 ### Endpoints
 
-- `/execCodeCpp` //to run code in C++
-- `/execCodePy`//to run code in Python
+- `/execCodeCpp` // to run code in C++
+- `/execCodePy`// to run code in Python
 
 **Response:**
 
